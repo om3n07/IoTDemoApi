@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SparkEnvironmentDB-Web.config Connection String" description="SparkEnvironmentDB Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:y2dxm0tsq0.database.windows.net,1433;Database=SparkEnvironmentDB;User ID=mmartell@y2dxm0tsq0;Password=asd8#N#8d9dsfn38@1!;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="\\\\mi\\dfs\\users\\mmartell\\documents\\visual\ studio\ 2015\\Projects\\IoTDemoApi\\IoTDemoApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SparkEnvironmentDB']/@connectionString" />
+  </parameter>
+</parameters>
