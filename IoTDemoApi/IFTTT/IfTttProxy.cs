@@ -21,7 +21,7 @@ namespace IoTDemoApi
 
                 var content = new FormUrlEncodedContent(values);
 
-                var response = await client.PostAsync("https://maker.ifttt.com/trigger/" + Enum.GetName(typeof(IfTttEventTypes), IfTttEventTypes.garage_getting_cold) + "/with/key/dqUsqZ-yWQy0JJ6ONtpfBAi8zlQft8b8B54-bUZf-fZ", content);
+                var response = await client.PostAsync("https://maker.ifttt.com/trigger/" + Enum.GetName(typeof(IfTttEventTypes), IfTttEventTypes.garage_getting_cold) + "/with/key/", content);
                 return await response.Content.ReadAsStringAsync();
             }
         }
